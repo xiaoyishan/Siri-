@@ -108,7 +108,7 @@
         [_recognitionTask cancel];
         _recognitionTask = nil;
     }
-
+ 
     AVAudioSession *audioSession = [AVAudioSession sharedInstance];
     NSError *error;
     [audioSession setCategory:AVAudioSessionCategoryRecord error:&error];

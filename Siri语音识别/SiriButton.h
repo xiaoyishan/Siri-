@@ -24,7 +24,7 @@ typedef void (^ReceiveBlock)(NSString *ShortWord);
 @property (nonatomic, copy) ReceiveBlock BridgingBlock;
 -(void)AddListenBlock:(ReceiveBlock)Receive;
 
-//本地文件识别
+//本地文件识别 
 -(void)AddListenDataUrl:(NSURL*)url Block:(void(^)(NSString *ShortWord))Receive;
 
 @end

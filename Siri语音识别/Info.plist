@@ -35,7 +35,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>请求使用语音识别技术</string>
+	<string>请求语音识别授权</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>请求使用麦克风</string>
 </dict>
