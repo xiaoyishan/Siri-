@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
+    // test 
     [_ListenBtn AddListenBlock:^(NSString *ShortWord) {
         _showLabel.text = ShortWord;
     }];
